@@ -7,6 +7,7 @@ namespace Assigment1_S19_Sagar
         static void Main(string[] args)
         {
             int x = 5, y = 15;
+            // Call printPrimeNumbers method
             printPrimeNumbers(x, y);
 
             /* Unable to complete code--
@@ -28,9 +29,11 @@ namespace Assigment1_S19_Sagar
             */
 
             int n4 = 5;
+            // Call printTriangle method
             printTriangle(n4);
 
             int[] arr = new int[] { 1, 2, 3, 2, 2, 1, 3, 2 };
+            // Call computeFrequency method
             computeFrequency(arr);
 
             Console.WriteLine(" ");
